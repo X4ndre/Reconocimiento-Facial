@@ -14,7 +14,7 @@ Para realizar el proyecto primero se necesita crear una base de datos con imagen
 ## [Modelo2](https://github.com/X4ndre/Reconocimiento-Facial/blob/main/Modelo2.ipynb)
 Para entrenar el modelo se usa el cuaderno llamado "Modelo2.ipynb" en este mientras se tenga una base de datos propia que contenga datos en train y test con el mismo nuemro de clases y datos en ambas se puede ejecutar, aunque tambien se tendra que cambiar las rutas de acceso a la base de datos donde se requiera ("train_datagen.flow_from_directory('Data/Train',", "test_data = test_datagen.flow_from_directory('Data/Test',", y "folders = glob('Data/Test/*')")
 
-## [Prueba_de_Modelo](https://github.com/X4ndre/Reconocimiento-Facial/blob/main/Prueba_de_Modelo.ipynb)<a name="prueba_de_modelo"></a>
+## [Prueba_de_Modelo](https://github.com/X4ndre/Reconocimiento-Facial/blob/main/Prueba_de_Modelo.ipynb)
 Para probar de forma local se usa el cuaderno "Prueba_de_Modelo.ipynb" de igual forma que el primer cuaderno las recomendaciones son ejecutarlo en un entorno local, y cambiar las rutas de acceso en la base de datos.
 
 ## Notas
